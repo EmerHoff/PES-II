@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+
+  openNav() {
+    document.getElementById("myMenu").style.width = "50%";
+    document.getElementById("myMenu").style.marginTop = "21px";
 }
+
+closeNav() {
+    document.getElementById("myMenu").style.width = "0";
+}
+
+
+}
+
