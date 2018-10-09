@@ -7,6 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { FormsModule }          from '@angular/forms';
 import { AppRoutingModule } from './/app-routing.module';
+import { InicialComponent } from './inicial/inicial.component';
 
 const appRoutes: Routes = [
   { path: 'carrinho', component: CarrinhoComponent }
@@ -15,7 +16,8 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    CarrinhoComponent
+    CarrinhoComponent,
+    InicialComponent
   ],
   imports: [
     BrowserModule,

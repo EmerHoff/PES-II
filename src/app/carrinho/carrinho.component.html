@@ -1,4 +1,52 @@
-<router-outlet></router-outlet>
-<p>
-  carrinho works!
-</p>
+<!--The content below is only a placeholder and can be replaced.-->
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<input type="checkbox" name="mobile-nav" id="mobile-nav" class="burger-check" onchange="this.blur()">
+<label for="mobile-nav" class="burger white" tabindex="0"><span></span></label>
+<nav role="navigation" class="header-nav">
+    <div class="fixed-nav">
+        <div class="menu">
+            <ul>
+                <li class="page_item page-item-2">
+                    <!--<a href="#" class="waves-effect">
+                        Produtos
+                    </a>-->
+                    <a routerLink="/heroes" routerLinkActive="active">Produtos</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="#" class="waves-effect">
+                        Bebidas
+                    </a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="#" class="waves-effect">
+                        Carnes
+                    </a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="#" class="waves-effect">
+                        Verduras e Legumes
+                    </a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="#" class="waves-effect">
+                        Produtos de Limpeza
+                    </a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="#" class="waves-effect">
+                        Alterar Dados
+                    </a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="#" class="waves-effect">
+                        Sair
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,115 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<input type="checkbox" name="mobile-nav" id="mobile-nav" class="burger-check" onchange="this.blur()">
+<label for="mobile-nav" class="burger white" tabindex="0"><span></span></label>
+<nav role="navigation" class="header-nav">
+    <div class="fixed-nav">
+        <div class="menu">
+            <ul>
+                <li class="page_item page-item-2">
+                    <!--<a href="#" class="waves-effect">
+                        Produtos
+                    </a>-->
+                    <a routerLink="/heroes" routerLinkActive="active">Produtos</a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="#" class="waves-effect">
+                        Bebidas
+                    </a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="#" class="waves-effect">
+                        Carnes
+                    </a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="#" class="waves-effect">
+                        Verduras e Legumes
+                    </a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="#" class="waves-effect">
+                        Produtos de Limpeza
+                    </a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="#" class="waves-effect">
+                        Alterar Dados
+                    </a>
+                </li>
+                <li class="page_item page-item-2">
+                    <a href="#" class="waves-effect">
+                        Sair
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container">
+    <div class="produto">
+
+    <!-- Produto 1 -->
+    <div class="col-xs-3 col-md-3 text-center">
+        <img src="\assets\Arroz-Tio-Joao-Branco-1kg.jpg" class="img-rounded img-responsive" />
+    </div>
+    <div class="col-xs-9 col-md-9 section-box">
+        <h2>
+            Arroz Tio João <a href="http://bootsnipp.com/" target="_blank"></a>
+        </h2>
+        <p>R$ 6,90...............................................<span class="glyphicon glyphicon-shopping-cart">
+        </span></p>
+        <hr>
+    </div>
+
+    <!--Produto 2 -->
+    <div class="col-xs-3 col-md-3 text-center">
+        <img src="\assets\farinha-de-mandioca-torrada-pinduca-1kg-194.jpg" class="img-rounded img-responsive" />
+    </div>
+    <div class="col-xs-9 col-md-9 section-box">
+        <h2>
+            Farinha Pinduca <a href="http://bootsnipp.com/" target="_blank"></a>
+        </h2>
+        <p>R$ 4,99...............................................<span class="glyphicon glyphicon-shopping-cart">
+        </span></p>
+        <hr />
+    </div>
+
+
+    <!--Produto 3 -->
+    <div class="col-xs-3 col-md-3 text-center">
+        <img src="\assets\feijao.jpg" class="img-rounded img-responsive" />
+    </div>
+    <div class="col-xs-9 col-md-9 section-box">
+        <h2>
+            Feijão Qualitá <a href="http://bootsnipp.com/" target="_blank"></a>
+        </h2>
+        <p>R$ 5,90...............................................<span class="glyphicon glyphicon-shopping-cart">
+        </span></p>
+        <hr />
+    </div>
+
+
+    <!--Produto 4 -->
+    <div class="col-xs-3 col-md-3 text-center">
+        <img src="\assets\Maminha.jpg" class="img-rounded img-responsive" />
+    </div>
+    <div class="col-xs-9 col-md-9 section-box">
+        <h2>
+            Carne Maminha <a href="http://bootsnipp.com/" target="_blank"></a>
+        </h2>
+        <p>R$ 15,90..............................................<span class="glyphicon glyphicon-shopping-cart">
+        </span></p>
+        <hr />      
+    </div>
+</div>
+</div>
+               
+<!-- Botao Carinho -->
+<button type="button" class="btn btn-primary btn-circle btn-xl" routerLink="/carrinho"><i class="glyphicon glyphicon-shopping-cart"></i></button>
